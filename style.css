@@ -27,7 +27,7 @@ h1 {
     color: #FFF6DE;
     font-family: 'Graphik';
     font-weight: 900;
-
+    font-size: 4vw;
     
 
 }
@@ -40,3 +40,12 @@ h1 {
     font-weight: 900;
 
 }
+
+
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+}
+
