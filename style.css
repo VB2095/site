@@ -22,30 +22,33 @@ body{
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 2 / 1 / 3 / 2; }
 
-
+body{
+    color: #FFF6DE;
+    font-family: 'Graphik';
+}
 h1 {
-    color: #FFF6DE;
-    font-family: 'Graphik';
-    font-weight: 900;
-    font-size: 4vw;
+    font-size: 3.5vw;
+}
+
+h2{
+    font-size: 1.5vw;   
+}
+p{  
     
-
+    font-size: 1.5vw;
 }
-
-
-
-.div2 {
-    color: #FFF6DE;
-    font-family: 'Graphik';
-    font-weight: 900;
-
-}
-
 
 @media screen and (max-width: 767px){
     h1 {
-        font-size: 5vw;
+        font-size: 4vw;
         line-height: 1.2;
+    }
+
+    h2{
+        font-size: 3.5vw;
+    }
+    p{
+        font-size: 2.5vw;
     }
 }
 
