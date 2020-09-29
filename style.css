@@ -23,11 +23,11 @@ body{
     .div2 { grid-area: 2 / 1 / 3 / 2; }
 
 
-.div1 {
+h1 {
     color: #FFF6DE;
     font-family: 'Graphik';
     font-weight: 900;
-    font-size: 0.5em;
+    
 
 }
 
