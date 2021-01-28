@@ -57,6 +57,62 @@ li a:hover{
     text-decoration: none;
     text-decoration: underline;
 }
+/* Animation */ 
+
+.animate {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+.fadein {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    }
+
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
+.fadeIn {
+          -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+      }
+
+
+      .animate2 {
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    .fadein2 {
+        -webkit-animation-delay: 0.8s;
+        -moz-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+        }
+    
+        @keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
+            }
+          }
+          .fadeIn2 {
+              -webkit-animation-name: fadeIn;
+              animation-name: fadeIn;
+          }
+
+      /* Responsive */ 
 
 
 @media (max-width: 1200px) {
@@ -68,4 +124,3 @@ li a:hover{
     }
   } 
 
-  
