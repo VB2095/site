@@ -50,12 +50,13 @@ li a{
     color: #FFF6DE;
     text-decoration: none;
     font-size: 1.5rem;
+    transition: 400ms;
+    border-bottom: 1px solid transparent;
 }
 
 li a:hover{
-    color: #FFFF;
-    text-decoration: none;
-    text-decoration: underline;
+  border-color: #FFFF;
+    
 }
 /* Animation */ 
 
